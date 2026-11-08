@@ -1,0 +1,23 @@
+name: 💡 Feature Request / Security Rule
+description: Suggest an idea or new threat rule for AgentGuard
+title: "[FEAT]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make AI agent sandboxing better or caught a new prompt-injection pattern? Tell us!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear description of what problem you are trying to solve.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution
+      description: Describe your proposed solution or rule implementation.
+    validations:
+      required: true
